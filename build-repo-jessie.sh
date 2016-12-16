@@ -2,8 +2,8 @@
 
 BUILDDIR=/home/fox/buildenv/root/
 WEBDIR=/var/www
-WORKDIR=$BASEDIR/main/binary-armhf
 BASEDIR=dists/jessie
+WORKDIR=$BASEDIR/main/binary-armhf
 
 echo -e "# \e[32mCopy new files...\e[0m"
 cd $BUILDDIR
